@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.42.0"
+  version: "0.43.0"
 
 package:
   name: go-tools
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/golang/tools/archive/v${{ version }}.tar.gz
-  sha256: f058eb3f9d53c2c0315f0de0b6a86391e41e4249a35faf0703d77a5e7c286173
+  sha256: e35710736fcaeeb4fd9cd0279af97270af119a7dd7e9877c00608799c799de77
 
 build:
   number: 0
